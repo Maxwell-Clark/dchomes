@@ -1,106 +1,61 @@
-title: Nuxt UI Pro - Landing template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+title: DC Homes
+description: Every Home Built as Our Own
 hero:
-  title: Build your landing in seconds
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-  headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
-    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  title: Every Home Built as Our Own
+  description: With over 20 years of construction expertise, specializes in framing and finish carpentry, ensuring meticulous attention to detail in every high-quality home built.
   links:
-    - label: Get started
+    - label: Contact Us
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-      to: '#features'
+      to: '#contact'
       size: xl
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: View Gallery
+      icon: i-heroicons-photo
       size: xl
       color: gray
-      to: https://github.com/nuxt-ui-pro/landing
-      target: _blank
-logos:
-  title: Trusted by the world's best
-  icons:
-    - i-simple-icons-amazonaws
-    - i-simple-icons-heroku
-    - i-simple-icons-netlify
-    - i-simple-icons-vercel
-    - i-simple-icons-cloudflare
+      to: '#photos'
+
+#logos:
+#  title: Trusted by the world's best
+#  icons:
+#    - i-simple-icons-amazonaws
+#    - i-simple-icons-heroku
+#    - i-simple-icons-netlify
+#    - i-simple-icons-vercel
+#    - i-simple-icons-cloudflare
 features:
-  headline: Features
-  title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  headline: Specialties
+  title: Why choose us?
+  description: DC Homes, with over 20 years of construction expertise, specializes in framing and finish carpentry, ensuring meticulous attention to detail in every high-quality home built. Embracing the motto "Every Home Built As Our Own," they transform client dreams into reality and offer free estimates.
   items:
-    - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
-      icon: i-heroicons-cog
-    - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-      icon: i-heroicons-check
-    - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
-      icon: i-heroicons-lock-closed
-    - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
-      icon: i-heroicons-rocket-launch
-    - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
-      icon: i-heroicons-currency-dollar
-    - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
-      icon: i-heroicons-chart-bar
-pricing:
-  headline: Pricing
-  title: A plan for every need
-  description: Pariatur laborum dolor ea commodo sit aute aliquip qui et cillum excepteur.
-  plans:
-    - title: Basic
-      description: A basic plan for individuals.
-      price: $9.99
-      align: top
-      button:
-        label: Get Started
-        color: gray
-      features:
-        - 1 GB Storage
-        - 1 Email Account
-        - 1 Domain
-        - 1 Website
-        - 1 Database
-        - 1 SSL Certificate
-        - 1 Support Ticket
-    - title: Standard
-      description: A standard plan for small teams.
-      price: $19.99
-      highlight: true
-      scale: true
-      align: top
-      button:
-        label: Get Started
-      features:
-        - 10 GB Storage
-        - 10 Email Accounts
-        - 10 Domains
-        - 10 Websites
-        - 10 Databases
-        - 10 SSL Certificates
-        - 10 Support Tickets
-    - title: Premium
-      description: A premium plan for large teams.
-      price: $29.99
-      align: top
-      button:
-        label: Get Started
-        color: gray
-      features:
-        - 100 GB Storage
-        - 100 Email Accounts
-        - 100 Domains
-        - 100 Websites
-        - 100 Databases
-        - 100 SSL Certificates
-        - 100 Support Tickets
+    - title: New Construction
+      description: DC Homes leverages over two decades of expertise to construct high-quality, detail-oriented new homes that embody their commitment to treating every project as their own.
+    - title: Remodeling
+      description: Specializing in transformative remodeling, DC Homes updates existing structures with precision and a keen eye for detail, ensuring each space perfectly aligns with client visions.
+    - title: Basement Finishing
+      description: DC Homes excels in basement finishing, turning underutilized spaces into functional and beautifully crafted areas that reflect the homeowner's style and needs.
+    - title: Basement Framing
+      description: With a focus on robust and precise basement framing, DC Homes lays the foundational structure needed for creating durable and well-defined living spaces below ground.
+    - title: Finish Carpentry
+      description:  DC Homes' finish carpentry services emphasize aesthetic excellence and meticulous craftsmanship, enhancing the interior elegance of each home they work on.
+gallery:
+  headline: Gallery
+  title: Take a look at our latest projects.
+  description: DC Homes has completed a wide range of projects, from new construction to remodeling and basement finishing. Browse through our gallery to see the quality of our work.
+  pictures:
+    - url: 'https://picsum.photos/1920/1080?random=1'
+      alt: A basic photo for individuals.
+    - url: 'https://picsum.photos/1920/1080?random=2'
+      alt: A basic photo for individuals.
+    - url: 'https://picsum.photos/1920/1080?random=3'
+      alt: A basic photo for individuals.
+    - url: 'https://picsum.photos/1920/1080?random=4'
+      alt: A basic photo for individuals.
+    - url: 'https://picsum.photos/1920/1080?random=5'
+      alt: A basic photo for individuals.
+    - url: 'https://picsum.photos/1920/1080?random=6'
+      alt: A basic photo for individuals.
+
 testimonials:
   headline: Testimonials
   title: What our customers are saying.
@@ -171,3 +126,13 @@ faq:
       content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
     - label: Do you offer support?
       content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
+contact:
+  title: Contact Us
+  description: For inquiries, please fill out the form below.
+  form:
+    name: Name
+    email: Email
+    message: Message
+    button: Submit
+    success: Your message has been sent.
+    error: An error occurred, please try again.
