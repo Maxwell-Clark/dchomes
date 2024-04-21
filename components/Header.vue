@@ -52,7 +52,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
         <UDivider class="my-6" />
 
-        <UButton label="Contact Us" color="white" block class="mb-3" />
+        <UButton to="#contact" label="Contact Us" color="white" block class="mb-3" />
       </div>
     </template>
   </UHeader>
